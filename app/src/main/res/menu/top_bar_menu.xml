@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/edit"
+        android:title="edit"
+        android:icon="@drawable/twotone_edit_24"
+        android:contentDescription="content_description_search"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/favorite"
+        android:icon="@drawable/twotone_favorite_24"
+        android:title="favorite"
+        android:contentDescription="content_description_favorite"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/more"
+        android:title="more"
+        android:icon="@drawable/twotone_more_vert_24"
+        android:contentDescription="content_description_more"
+        app:showAsAction="never" />
+
+</menu>
